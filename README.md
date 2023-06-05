@@ -9,7 +9,7 @@ You have all seen how much 4MB flash chips are vs the 2MB flash chips. You can b
 
 Now 8MB you’re wondering. Well one single official game was released to use all that space (most of it anyway). If you really wish to play Desnha De Go 2, then this is for you. A train simulator fully in Japanese. This obviously requires 2 expensive 4MB flash chips. I guess you really got to want it. On a more serious note, the more accessible an 8MB cartridge is, the more likely people will develop games or ROM hacks for that size of cartridge. For usefulness today though, there are already people making video cartridges/ROMs for the GBC. So doubling the useable space is a huge benefit to those carts.
 
-When building your cartridge you just have to put a solder bridge over the desired 4 or 8MB selection.
+When building your cartridge you just have to put a solder bridge over the desired 4 or 8MB selection. There is also a version without JLC serial number markings if you wish to pay the extra to have the serial number removed, else you can specify a location and have the serial number hidden under the FRAM.
 
 Also with many 2MB MBC5 games, they don’t require any additional logic to use FRAM. For whatever reason all 4MB ROMs tested required some logic to refresh the precharge on the FRAM.
 
@@ -22,5 +22,21 @@ Parts List
 | 74LVC1G139 | 1 |
 | 74LVC1G332GW125 | 1 |
 | 29F016 or 29F032 | 2 |
-| C 100nF | 5 |
-| R 10K | 2 |
+| Capacitor 100nF | 5 |
+| Resistor 10K | 2 |
+
+You can use a varity of flash chips for this. AM29F016B, MBM29F016, AM29F032, MBM29F033C for example, so long as they have the same pin out.
+
+![SHD Proto](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/5d0126c4-fa22-4488-836b-ad33e03c95ef)
+![JM Prototype](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/d2490f02-4f30-4c4f-aaee-5c836a3d6c7b)
+![image](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/58a8015d-0c31-4e0b-aa61-b199808d9987)
+![image2](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/e59a21e6-7a26-43a1-b3d7-ffb42e88c59d)
+
+
+Thanks to Jamo for helping test this prototype, Lesserkuma who helped setup FlashGBX and Modded Gameboy Gameboy Club for even giving me the idea in the first place.
+
+Check them all out below!
+https://ko-fi.com/jamo_mods
+https://ko-fi.com/sillyhatday
+https://github.com/lesserkuma
+https://github.com/HDR
