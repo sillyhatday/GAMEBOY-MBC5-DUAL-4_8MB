@@ -16,7 +16,7 @@ Also with many 2MB MBC5 games, they don’t require any additional logic to use 
 Parts List
 
 | Part | Quantity |
---------------------
+|------|----------|
 | MBC5 | 1 |
 | FM18W08 | 1 |
 | 74LVC1G139 | 1 |
