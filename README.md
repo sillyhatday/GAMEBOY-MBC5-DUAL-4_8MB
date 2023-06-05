@@ -11,6 +11,8 @@ Now 8MB you’re wondering. Well one single official game was released to use al
 
 When building your cartridge you just have to put a solder bridge over the desired 4 or 8MB selection. There is also a version without JLC serial number markings if you wish to pay the extra to have the serial number removed, else you can specify a location and have the serial number hidden under the FRAM.
 
+While building I would recommend soldering the MBC and demultiplexer chips first, then the LOWER BANK flash chip. The UB and LB next to the flash chips stand for UPPER BANK and LOWER BANK respectively. At this point flash the cart under FlashGBX 29F016/32 profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made already will be easier to solve now. Once this is proven working, I'd suggest to solder the UPPER BANK chip, then using one of the attached custom profiles above, flash a 4MB or 8MB ROM. Once that is proven to work 100% then solder on the FRAM and OR gate. Finally prove that your game saves properly and you are good to go!
+
 Also with many 2MB MBC5 games, they don’t require any additional logic to use FRAM. For whatever reason all 4MB ROMs tested required some logic to refresh the precharge on the FRAM.
 
 Parts List
@@ -38,7 +40,7 @@ You can use a varity of flash chips for this. AM29F016B, MBM29F016, AM29F032, MB
 ![image](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/58a8015d-0c31-4e0b-aa61-b199808d9987)
 ![image2](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/e59a21e6-7a26-43a1-b3d7-ffb42e88c59d)
 
-3D render of the attached gerbers
+3D render of the attached gerbers. 
 
 
 Thanks to Jamo for helping test this prototype, Lesserkuma who helped setup FlashGBX and Modded Gameboy Gameboy Club for even giving me the idea in the first place.
