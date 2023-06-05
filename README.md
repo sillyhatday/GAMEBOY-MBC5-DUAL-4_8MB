@@ -55,6 +55,8 @@ Check them all out below!
 
 https://ko-fi.com/jamo_mods
 
+https://discord.gg/moddedgameboyclub
+
 https://ko-fi.com/sillyhatday
 
 https://github.com/lesserkuma
