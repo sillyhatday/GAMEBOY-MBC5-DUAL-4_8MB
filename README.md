@@ -28,9 +28,12 @@ Parts List
 You can use a varity of flash chips for this. AM29F016B, MBM29F016, AM29F032, MBM29F033C for example, so long as they have the same pin out.
 
 ![SHD Proto](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/5d0126c4-fa22-4488-836b-ad33e03c95ef)
+2x2MB mode prototype
 ![JM Prototype](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/d2490f02-4f30-4c4f-aaee-5c836a3d6c7b)
+2x4MB mode prototype
 ![image](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/58a8015d-0c31-4e0b-aa61-b199808d9987)
 ![image2](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/e59a21e6-7a26-43a1-b3d7-ffb42e88c59d)
+3D render of the attached gerbers
 
 
 Thanks to Jamo for helping test this prototype, Lesserkuma who helped setup FlashGBX and Modded Gameboy Gameboy Club for even giving me the idea in the first place.
