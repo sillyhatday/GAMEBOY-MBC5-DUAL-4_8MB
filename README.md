@@ -19,7 +19,7 @@ Once more, if you don't know how to solder this sort of thing then you should co
 
 ![Racomendd](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/815020d6-9d19-4641-8ca3-6ea37c257a56)
 
-While building I would recommend soldering the MBC and demultiplexer chips first, then the LOWER BANK flash chip. The UB and LB next to the flash chips stand for UPPER BANK and LOWER BANK respectively. At this point flash the cart under FlashGBX 29F016/32 profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made already will be easier to solve now. Once this is proven working, I'd suggest to solder the UPPER BANK chip, then using one of the attached custom profiles above, flash a 4MB or 8MB ROM. Once that is proven to work 100% then solder on the FRAM and OR gate. Finally prove that your game saves properly and you are good to go!
+While building, I would recommend soldering the MBC and demultiplexer chips first, then the LOWER BANK flash chip. The UB and LB next to the flash chips stand for UPPER BANK and LOWER BANK respectively. At this point, flash the cart under FlashGBX 29F016/32 profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made will be easier to solve now. Once this is proven working, I'd suggest to solder the UPPER BANK chip. Then, using one of the attached custom profiles above, flash a 4MB or 8MB ROM. Once that is proven to work 100% then solder on the FRAM and OR gate. Finally prove that your game saves properly and you are good to go!
 
 Parts List
 
