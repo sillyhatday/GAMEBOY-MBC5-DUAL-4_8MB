@@ -1,5 +1,5 @@
 # GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB
-A working 8MB Gameboy flash cart as far as I know. You can also use this to to make a 4MB cart out of cheaper 2MB chips.
+A working 8MB Gameboy flash cart. You can also use this to to make a 4MB cart out of cheaper 2MB chips.
 
 I'm not going to explain the basics for this flash cart, just how this works and the benefits of it. If you are looking at this as your first flash cart, then I'd recommend you look at one of my other projects first and make 20 of them. Then come back. This is one of the most difficult flash carts to build.
 
