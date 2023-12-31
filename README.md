@@ -41,6 +41,11 @@ Finally prove that your game saves properly and you are good to go!
 
 You can use a varity of flash chips for this. AM29F016B, MBM29F016, AM29F032, MBM29F033C for example, so long as they have the same pin out.
 
+![IMG_5658](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/72163434-7865-4c13-bdaa-4ec5b58a38fa)
+![IMG_5652](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/7c0b5e94-a9e7-4a41-8f7e-5831737e5a58)
+
+Final version in 2x2MB config
+
 ![SHD Proto](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/5d0126c4-fa22-4488-836b-ad33e03c95ef)
 
 2x2MB mode prototype
