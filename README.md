@@ -11,7 +11,17 @@ Now 8MB you’re wondering. Well one single official game was released to use al
 
 When building your cartridge you just have to put a solder bridge over the desired 4 or 8MB selection. There is also a version without JLC serial number markings if you wish to pay the extra to have the serial number removed, else you can specify a location and have the serial number hidden under the FRAM.
 
-Also with many 2MB MBC5 games, they don’t require any additional logic to use FRAM. For whatever reason all 4MB ROMs tested required some logic to refresh the precharge on the FRAM
+Also with many 2MB MBC5 games, they don’t require any additional logic to use FRAM. For whatever reason all 4MB ROMs tested required some logic to refresh the precharge on the FRAM.
+
+## Game compatibility
+Simply put this cart has the most compatibility of all the cartridges. If you want a cartridge that has the least compromises, then either configuration of this cartridge will do that.
+
+Nearly all Gameboy colour games used this memory mapper. It can address 32KB to 8MB of game storage and 8KB to 128KB of game save storage. This one using all 8MB of game storage and 32KB of save storage, as 95% of the games using this mapper are within that size range. Most 8KB save files should work fine on the 32KB chip also.
+
+It is not suggested to make the 8MB configuration due to the cost vs gain. Only one official game (and unofficial as far as I know) use 8MB. For most people I suggest making the 4MB version as this should work with every MBC5 game except one.
+
+Games that use real time clock functions do not work correctly on this cartridge due to it not having the clock functionality. Most Pokemon games will not work properly on this. They require a MBC3 cartridge.
+
 
 ## BUILD GUIDE
 
