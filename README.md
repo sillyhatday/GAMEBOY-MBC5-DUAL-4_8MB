@@ -33,9 +33,9 @@ While building, I would recommend soldering the MBC and demultiplexer chips firs
 
 At this point, flash the cart under FlashGBX 29F016/32 profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made will be easier to solve now.
 
-Once this is proven working, I'd suggest to solder the UPPER BANK chip. Then, using one of the attached custom profiles above, flash a 4MB or 8MB ROM. Once that is proven to work 100%, solder on the FRAM and OR gate.
+Once this is proven working, I'd suggest to solder the UPPER BANK chip. Then, using the profile included in FlashGBX "Sillyhatday MBC5-DUAL-FLASH-4/8MB", flash a 4MB or 8MB ROM. Once that is proven to work 100%, solder on the FRAM and OR gate.
 
-Finally prove that your game saves properly and you are good to go!
+Finally prove that your game saves properly or better, use the RAM stress test under FlashGBX, and you are good to go!
 
 ## Parts List
 
