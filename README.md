@@ -5,7 +5,9 @@ I'm not going to explain the basics for this flash cart, just how this works and
 
 I don’t remember if this uses any of HDR footprints, so just in case go check out their own builds on github.
 
-You have all seen how much 4MB flash chips are vs the 2MB flash chips. You can buy 2 2MB chips for less than 1 4MB chip. So why can’t you use them together to make 4MB? Well you can now with a little bit of basic logic. Even with the logic chip it is still cheaper than 1 4MB chip, but the more of these you make, the cheaper each cart works out. The cost is directly between making a 2MB cart and a regular 4MB cart. There is zero downsides or quirks to this, it just works. You will have to use its own FlashGBX profile as it doesn’t auto detect, but that’s it. Maybe Lesserkuma will include even it in a newer version to make it even more seamless.
+You have all seen how much 4MB flash chips are vs the 2MB flash chips. You can buy 2 2MB chips for less than 1 4MB chip. So why can’t you use them together to make 4MB? Well you can now with a little bit of basic logic. Even with the logic chip it is still cheaper than 1 4MB chip, but the more of these you make, the cheaper each cart works out. The cost is directly between making a 2MB cart and a regular 4MB cart. There is zero downsides or quirks to this, it just works. You will have to use its own FlashGBX profile as it doesn’t auto detect, but that’s it. ~~Maybe Lesserkuma will include even it in a newer version to make it even more seamless.~~ UPDATE! As of V3.30 it is included!
+
+![LK V3 30](https://github.com/sillyhatday/GAMEBOY-MBC5-DUAL-4_8MB/assets/65309612/78d43b0f-2e17-4e5c-9316-7730b43ccd07)
 
 Now 8MB you’re wondering. Well one single official game was released to use all that space (most of it anyway). If you really wish to play Desnha De Go 2, then this is for you. A train simulator fully in Japanese. This obviously requires 2 expensive 4MB flash chips. I guess you really got to want it. On a more serious note, the more accessible an 8MB cartridge is, the more likely people will develop games or ROM hacks for that size of cartridge. For usefulness today though, there are already people making video cartridges/ROMs for the GBC. So doubling the useable space is a huge benefit to those carts.
 
@@ -29,13 +31,15 @@ Once more, if you don't know how to solder this sort of thing then you should co
 
 ![Racomendd](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB/assets/65309612/815020d6-9d19-4641-8ca3-6ea37c257a56)
 
-While building, I would recommend soldering the MBC and demultiplexer chips first, then the LOWER BANK flash chip. The UB and LB next to the flash chips stand for UPPER BANK and LOWER BANK respectively.
+Firstly, decide what size cart you want to build and solder the jumper on the cart for the respective size. Then, I would recommend soldering the MBC and demultiplexer chips followed by the LOWER BANK flash chip. UB and LB next to the flash chips stand for UPPER BANK and LOWER BANK.
 
-At this point, flash the cart under FlashGBX 29F016/32 profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made will be easier to solve now.
+At this point, flash the cart under "FlashGBX 29F016/32" or "Sillyhatday MBC5-DUAL-FLASH-4/8MB" profile using a 2MB or 4MB ROM, whichever is half the size of the cart you're building. Any bad connections made will be easier to solve now.
 
 Once this is proven working, I'd suggest to solder the UPPER BANK chip. Then, using the profile included in FlashGBX "Sillyhatday MBC5-DUAL-FLASH-4/8MB", flash a 4MB or 8MB ROM. Once that is proven to work 100%, solder on the FRAM and OR gate.
 
 Finally prove that your game saves properly or better, use the RAM stress test under FlashGBX, and you are good to go!
+
+Remember to support Lesser Kuma for their continued hard work in supporting this great hardware with regular updates and bug fixes. Their Kofi is linked at the bottom.
 
 ## Parts List
 
@@ -70,10 +74,12 @@ Thanks to Jamo for helping test this prototype, Lesserkuma who helped setup Flas
 
 https://ko-fi.com/jamo_mods
 
-https://discord.gg/moddedgameboyclub
+https://ko-fi.com/lesserkuma
+
+https://ko-fi.com/nataliethenerd
 
 https://ko-fi.com/sillyhatday
 
 https://github.com/lesserkuma
 
-https://github.com/HDR
+https://discord.gg/moddedgameboyclub
